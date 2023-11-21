@@ -17,6 +17,7 @@ function resposta(num_pergunta, selecionada){
     id="p" + num_pergunta;
 
     labels = document.getElementById(id).childNodes;
+
     labels[3].style.backgroundColor = "white";
     labels[5].style.backgroundColor = "white";
     labels[7].style.backgroundColor = "white";
@@ -32,6 +33,8 @@ function corrigir(){
         for(i=0; i < corretas.length; i++){
                 if(corretas[i] == opcao_escolhida[i]){
                     quantidade_corretas++;
+
+                    
                 }   
         }
         document.getElementById("resultado").innerHTML = quantidade_corretas;
