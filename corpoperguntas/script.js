@@ -1,5 +1,5 @@
 //array contendo as respostas corretas
-let corretas = [3,1,2,2,3];
+let corretas = [3,1,3,2,3];
 
 //array para guardar as respostas que o usuário selecionou
 let opcao_escolhida=[];
@@ -33,9 +33,18 @@ function corrigir(){
         for(i=0; i < corretas.length; i++){
                 if(corretas[i] == opcao_escolhida[i]){
                     quantidade_corretas++;
-
-                    
                 }   
+
+                let id = "p" + i;
+                    let labels = document.getElementById(id).childNodes;
+        
+                    // destaca a resposta correta com a cor verde
+                    if (corretas[i] == 1)
+                        labels[3].style.backgroundColor = "green";
+                    if (corretas[i] == 2)
+                        labels[5].style.backgroundColor = "green";
+                    if (corretas[i] == 3)
+                        labels[7].style.backgroundColor = "green";
         }
         document.getElementById("resultado").innerHTML = quantidade_corretas;
 }

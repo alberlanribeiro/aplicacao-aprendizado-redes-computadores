@@ -1,7 +1,25 @@
+/* Color Theme Swatches in Hex */
+.azules-1-hex { color: #2426FF; }
+.azules-2-hex { color: #2679E8; }
+.azules-3-hex { color: #36E0FF; }
+.azules-4-hex { color: #26E8B1; }
+.azules-5-hex { color: #2AFF63; }
+
+
+/* Color Theme Swatches in Hex */
+.nutrieduc®-1-hex { color: #96D9D9; }
+.nutrieduc®-2-hex { color: #C2F2F2; }
+.nutrieduc®-3-hex { color: #D4D948; }
+.nutrieduc®-4-hex { color: #F2EB88; }
+.nutrieduc®-5-hex { color: #F2E5A2; }
+
 
 *{
     box-sizing: border-box;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background: black;
 }
 
 header{
@@ -15,6 +33,7 @@ header{
     max-width: 700px;
     margin: auto;
     padding: 20px;
+    background: white;
 }
 
 section{
