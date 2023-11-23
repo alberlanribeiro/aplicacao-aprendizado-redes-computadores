@@ -6,54 +6,97 @@
     <title>Document</title>
 </head>
 <body>
-    1. Quais são algumas das alternativas mencionadas para lidar com o problema de escassez de endereços IP?
+
+   <main>
+      <section id="p0">
+         <p  class="titulo-perguntas">1 - Quais são algumas das alternativas mencionadas para lidar com o problema de escassez de endereços IP?</p>
+             <label><input type="radio" value="1" name="p0" onclick="resposta(0,this)"> Criar faixas de endereço públicos e privados</label>
+             <label><input type="radio" value="2" name="p0" onclick="resposta(0,this)"> Implementar o IPv6</label>
+             <label><input type="radio" value="3" name="p0" onclick="resposta(0,this)"> Utilizar NAT e CIDR</label>
+      </section>
+      <section id="p1">
+         <p  class="titulo-perguntas">2 - Como o NAT contribui para resolver o problema de escassez de endereços IP?</p>
+             <label><input type="radio" value="1" name="p1" onclick="resposta(1,this)"> Permite a tradução de endereços IP públicos em endereços privados</label>
+             <label><input type="radio" value="2" name="p1" onclick="resposta(1,this)"> Classifica endereços IP em faixas específicas</label>
+             <label><input type="radio" value="3" name="p1" onclick="resposta(1,this)"> Define endereços IP exclusivos para dispositivos locais</label>
+      </section>
+      <section id="p2">
+         <p  class="titulo-perguntas">3 - Por que as medidas mencionadas, como faixas de endereço públicos e privados, NAT e CIDR, são consideradas temporárias para resolver o problema de escassez?</p>
+             <label><input type="radio" value="1" name="p2" onclick="resposta(2,this)"> Elas não oferecem soluções eficazes</label>
+             <label><input type="radio" value="2" name="p2" onclick="resposta(2,this)"> São complexas de implementar</label>
+             <label><input type="radio" value="3" name="p2" onclick="resposta(2,this)"> A solução definitiva é a implementação total do IPv6</label>
+      </section>
+      <section id="p3">
+         <p  class="titulo-perguntas">4 - Qual é a função principal dos endereços IP privados, e onde são comumente usados?</p>
+             <label><input type="radio" value="1" name="p3" onclick="resposta(3,this)"> Identificar dispositivos na Internet global</label>
+             <label><input type="radio" value="2" name="p3" onclick="resposta(3,this)"> Utilizados em redes locais (LANs)</label>
+             <label><input type="radio" value="3" name="p3" onclick="resposta(3,this)"> Assegurar a singularidade de endereços na Internet</label>
+      </section>
+      <section id="p4">
+         <p  class="titulo-perguntas">5 - Quais são as faixas de endereços IP privados, conforme mencionadas no texto?</p>
+             <label><input type="radio" value="1" name="p4" onclick="resposta(4,this)"> 192.0.0.0 até 192.255.255.255</label>
+             <label><input type="radio" value="2" name="p4" onclick="resposta(4,this)"> 10.0.0.0 até 10.255.255.255</label>
+             <label><input type="radio" value="3" name="p4" onclick="resposta(4,this)"> 172.32.0.0 até 172.63.255.255</label>
+      </section>
+      <section id="p5">
+         <p  class="titulo-perguntas">6 - O que diferencia os endereços IP públicos dos endereços IP privados?</p>
+             <label><input type="radio" value="1" name="p5" onclick="resposta(5,this)"> Os públicos são reutilizáveis, enquanto os privados são únicos</label>
+             <label><input type="radio" value="2" name="p5" onclick="resposta(5,this)"> Os públicos são roteados diretamente na Internet, enquanto os privados não</label>
+             <label><input type="radio" value="3" name="p5" onclick="resposta(5,this)"> Ambos são usados exclusivamente em redes locais</label>
+      </section>
+      <section id="p6">
+         <p  class="titulo-perguntas">7 - Por que cada dispositivo conectado diretamente à Internet deve ter um endereço IP público único?</p>
+             <label><input type="radio" value="1" name="p6" onclick="resposta(6,this)"> Garantir a segurança da rede</label>
+             <label><input type="radio" value="2" name="p6" onclick="resposta(6,this)"> Evitar conflitos de endereços</label>
+             <label><input type="radio" value="3" name="p6" onclick="resposta(6,this)"> Facilitar a comunicação global</label>
+      </section>
+      <section id="p7">
+         <p  class="titulo-perguntas">8 - Segundo o texto, qual é a solução definitiva para o problema de escassez de endereços IP?</p>
+             <label><input type="radio" value="1" name="p7" onclick="resposta(7,this)"> Uso de endereços IP públicos</label>
+             <label><input type="radio" value="2" name="p7" onclick="resposta(7,this)"> Implementação total do IPv6</label>
+             <label><input type="radio" value="3" name="p7" onclick="resposta(7,this)"> Divisão de redes na notação CIDR</label>
+      </section>
+   </main>
+
+
+    <!--1. Quais são algumas das alternativas mencionadas para lidar com o problema de escassez de endereços IP?
    a) Criar faixas de endereço públicos e privados
    b) Implementar o IPv6
    c) Utilizar NAT e CIDR
 
-2. O que significa NAT (Network Address Translation) e como essa técnica contribui para resolver o problema de escassez de endereços IP?
+2. Como o NAT contribui para resolver o problema de escassez de endereços IP?
    a) Permite a tradução de endereços IP públicos em endereços privados
    b) Classifica endereços IP em faixas específicas
    c) Define endereços IP exclusivos para dispositivos locais
 
-3. Como as redes são divididas na notação CIDR (Classless Inter-Domain Routing) e de que maneira isso ajuda a enfrentar a escassez de endereços IP?
-   a) Agrupando endereços IP em classes fixas
-   b) Utilizando máscaras de sub-rede variáveis
-   c) Alocando endereços IP específicos para dispositivos globais
-
-4. Por que as medidas mencionadas, como faixas de endereço públicos e privados, NAT e CIDR, são consideradas temporárias para resolver o problema de escassez?
+3. Por que as medidas mencionadas, como faixas de endereço públicos e privados, NAT e CIDR, são consideradas temporárias para resolver o problema de escassez?
    a) Elas não oferecem soluções eficazes
    b) São complexas de implementar
    c) A solução definitiva é a implementação total do IPv6
 
-5. Qual é a função principal dos endereços IP privados, e onde são comumente usados?
+4. Qual é a função principal dos endereços IP privados, e onde são comumente usados?
    a) Identificar dispositivos na Internet global
    b) Utilizados em redes locais (LANs)
    c) Assegurar a singularidade de endereços na Internet
 
-6. Quais são as faixas de endereços IP privados, conforme mencionadas no texto?
+5. Quais são as faixas de endereços IP privados, conforme mencionadas no texto?
    a) 192.0.0.0 até 192.255.255.255
    b) 10.0.0.0 até 10.255.255.255
    c) 172.32.0.0 até 172.63.255.255
 
-7. O que diferencia os endereços IP públicos dos endereços IP privados?
+6. O que diferencia os endereços IP públicos dos endereços IP privados?
    a) Os públicos são reutilizáveis, enquanto os privados são únicos
    b) Os públicos são roteados diretamente na Internet, enquanto os privados não
    c) Ambos são usados exclusivamente em redes locais
 
-8. Por que cada dispositivo conectado diretamente à Internet deve ter um endereço IP público único?
+7. Por que cada dispositivo conectado diretamente à Internet deve ter um endereço IP público único?
    a) Garantir a segurança da rede
    b) Evitar conflitos de endereços
    c) Facilitar a comunicação global
 
-9. Qual é um exemplo de endereço IP público mencionado no texto?
-   a) 192.168.1.1
-   b) 8.8.8.8
-   c) 172.16.0.1
-
-10. Segundo o texto, qual é a solução definitiva para o problema de escassez de endereços IP?
+8. Segundo o texto, qual é a solução definitiva para o problema de escassez de endereços IP?
     a) Uso de endereços IP públicos
     b) Implementação total do IPv6
-    c) Divisão de redes na notação CIDR
+    c) Divisão de redes na notação CIDR-->
 </body>
 </html>
