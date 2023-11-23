@@ -6,7 +6,54 @@
     <title>Document</title>
 </head>
 <body>
-    **Perguntas do Quiz:**
+
+   <main>
+      <section id="p0">
+         <p  class="titulo-perguntas">1 - O que é o Modelo OSI e qual é o seu propósito na comunicação entre sistemas?</p>
+             <label><input type="radio" value="1" name="p0" onclick="resposta(0,this)"> Um software de comunicação para PCs</label>
+             <label><input type="radio" value="2" name="p0" onclick="resposta(0,this)"> Um modelo teórico dividido em camadas para entender a comunicação entre sistemas</label>
+             <label><input type="radio" value="3" name="p0" onclick="resposta(0,this)"> Uma linguagem de programação para redes de computadores</label>
+      </section>
+      <section id="p1">
+         <p  class="titulo-perguntas">2 - Quantas camadas compõem o Modelo OSI e como a comunicação ocorre entre elas?</p>
+             <label><input type="radio" value="1" name="p1" onclick="resposta(1,this)"> 5 camadas; comunicação de cima para baixo</label>
+             <label><input type="radio" value="2" name="p1" onclick="resposta(1,this)"> 7 camadas; comunicação de baixo para cima, da camada 7 à camada 1</label>
+             <label><input type="radio" value="3" name="p1" onclick="resposta(1,this)"> 10 camadas; comunicação de forma aleatória entre elas</label>
+      </section>
+      <section id="p2">
+         <p  class="titulo-perguntas">3 - O que é encapsulamento no contexto do Modelo OSI e qual é o seu propósito?</p>
+             <label><input type="radio" value="1" name="p2" onclick="resposta(2,this)"> O processo de adicionar informações essenciais no final da mensagem</label>
+             <label><input type="radio" value="2" name="p2" onclick="resposta(2,this)"> O processo de adicionar informações de cabeçalhos para a interpretação da camada</label>
+             <label><input type="radio" value="3" name="p2" onclick="resposta(2,this)"> A remoção de informações específicas da mensagem</label>
+      </section>
+      <section id="p3">
+         <p  class="titulo-perguntas">4 - O que representa o termo "cabeçalho" no contexto do Modelo OSI?</p>
+             <label><input type="radio" value="1" name="p3" onclick="resposta(3,this)"> Um rodapé adicionado ao final da mensagem</label>
+             <label><input type="radio" value="2" name="p3" onclick="resposta(3,this)"> Bits adicionados no início da mensagem com informações específicas</label>
+             <label><input type="radio" value="3" name="p3" onclick="resposta(3,this)"> Um anexo adicional à mensagem para fins estéticos</label>
+      </section>
+      <section id="p4">
+         <p  class="titulo-perguntas">5 - Como o processo de encapsulamento é comparado à colocação de uma mensagem dentro de caixas?</p>
+             <label><input type="radio" value="1" name="p4" onclick="resposta(4,this)"> Cada caixa contém uma mensagem idêntica</label>
+             <label><input type="radio" value="2" name="p4" onclick="resposta(4,this)"> Cada camada adiciona informações como se colocasse a mensagem dentro de uma caixa</label>
+             <label><input type="radio" value="3" name="p4" onclick="resposta(4,this)"> Cada camada remove informações, tornando a mensagem menor a cada camada</label>
+      </section>
+      <section id="p5">
+         <p  class="titulo-perguntas">6 - O que acontece com a mensagem quando ela passa por todas as camadas do Modelo OSI e está pronta para ser transmitida?</p>
+             <label><input type="radio" value="1" name="p5" onclick="resposta(5,this)"> É descartada</label>
+             <label><input type="radio" value="2" name="p5" onclick="resposta(5,this)"> É transmitida pelo meio físico</label>
+             <label><input type="radio" value="3" name="p5" onclick="resposta(5,this)"> É convertida em linguagem binária</label>
+      </section>
+      <section id="p6">
+         <p  class="titulo-perguntas">7 - Como é chamado o processo inverso ao encapsulamento, no qual a mensagem é preparada para ser interpretada no destino?</p>
+             <label><input type="radio" value="1" name="p6" onclick="resposta(6,this)"> Desencapsulamento</label>
+             <label><input type="radio" value="2" name="p6" onclick="resposta(6,this)"> Descrição</label>
+             <label><input type="radio" value="3" name="p6" onclick="resposta(6,this)"> Deconstrução</label>
+      </section>
+   </main>
+
+
+<!-- **Perguntas do Quiz:**
 
 1. **O que é o Modelo OSI e qual é o seu propósito na comunicação entre sistemas?**
    a. Um software de comunicação para PCs  
@@ -41,6 +88,7 @@
 7. **Como é chamado o processo inverso ao encapsulamento, no qual a mensagem é preparada para ser interpretada no destino?**
    a. Desencapsulamento  
    b. Descrição  
-   c. Deconstrução
+   c. Deconstrução-->
+   
 </body>
 </html>
