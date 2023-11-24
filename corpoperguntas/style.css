@@ -1,27 +1,39 @@
 /* Color Theme Swatches in Hex */
-.azules-1-hex { color: #2426FF; }
-.azules-2-hex { color: #2679E8; }
-.azules-3-hex { color: #36E0FF; }
-.azules-4-hex { color: #26E8B1; }
-.azules-5-hex { color: #2AFF63; }
-
-
 /* Color Theme Swatches in Hex */
-.nutrieduc®-1-hex { color: #96D9D9; }
-.nutrieduc®-2-hex { color: #C2F2F2; }
-.nutrieduc®-3-hex { color: #D4D948; }
-.nutrieduc®-4-hex { color: #F2EB88; }
-.nutrieduc®-5-hex { color: #F2E5A2; }
+/* Color Theme Swatches in Hex */
+/* Color Theme Swatches in Hex */
+.The-Blue-Girl-With-Animated-Eyes-1-hex { color: #2451F2; }
+.The-Blue-Girl-With-Animated-Eyes-2-hex { color: #27BBF2; }
+.The-Blue-Girl-With-Animated-Eyes-3-hex { color: #F2E205; }
+.The-Blue-Girl-With-Animated-Eyes-4-hex { color: #F2A71B; }
+.The-Blue-Girl-With-Animated-Eyes-5-hex { color: #00FF90; }
+
+/* Color Theme Swatches in RGBA */
+.The-Blue-Girl-With-Animated-Eyes-1-rgba { color: rgba(36, 81, 242, 1); }
+.The-Blue-Girl-With-Animated-Eyes-2-rgba { color: rgba(39, 187, 242, 1); }
+.The-Blue-Girl-With-Animated-Eyes-3-rgba { color: rgba(242, 226, 5, 1); }
+.The-Blue-Girl-With-Animated-Eyes-4-rgba { color: rgba(242, 167, 27, 1); }
+.The-Blue-Girl-With-Animated-Eyes-5-rgba { color: rgba(0, 255, 144, 1); }
+
+/* Color Theme Swatches in HSLA */
+.The-Blue-Girl-With-Animated-Eyes-1-hsla { color: hsla(226, 88, 54, 1); }
+.The-Blue-Girl-With-Animated-Eyes-2-hsla { color: hsla(196, 88, 55, 1); }
+.The-Blue-Girl-With-Animated-Eyes-3-hsla { color: hsla(55, 95, 48, 1); }
+.The-Blue-Girl-With-Animated-Eyes-4-hsla { color: hsla(39, 89, 52, 1); }
+.The-Blue-Girl-With-Animated-Eyes-5-hsla { color: hsla(153, 100, 50, 1); }
+
+
 
 
 *{
     box-sizing: border-box;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-body{
-    background: black;
-}
 
+
+body{
+    background: #D0ECF2; 
+}
 header{
     text-align: center;
     background: #000;
@@ -34,21 +46,24 @@ header{
     margin: auto;
     padding: 20px;
     background: white;
+    /*background: #F2BF91;*/
 }
 
 section{
-    border: 2px solid #5624d0;
+    border: 1px solid black;
     border-radius: 7px;
     padding: 10px;
     margin: 10px 0;
+    background: #27BBF2;
 }
 
 label{
+    background: white;
     display: block;
     padding: 7px;
     border-radius: 7px;
     cursor: pointer;
-    border: 1px dashed #ccc;
+    border: 1px solid black;
     margin-bottom: 3px;
 }
 

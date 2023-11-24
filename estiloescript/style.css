@@ -1,0 +1,72 @@
+
+
+
+
+/* Color Theme Swatches in Hex */
+.technology-1-hex { color: #CCE7F2; }
+.technology-2-hex { color: #89D6FB; }
+.technology-3-hex { color: #02A9F7; }
+.technology-4-hex { color: #02577A; }
+.technology-5-hex { color: #01303F; }
+
+
+
+:root{
+    --cor1: #CCE7F2;
+    --cor2: #89D6FB; 
+    --cor3: #02a9f7;
+    --cor4: #02577A;
+    --cor5: #01303F;
+    --cor6: #83e1ad;
+    --cor7: #3ddc84;
+}
+
+
+
+body{
+    background: var(--cor1);
+}
+
+
+header{
+    text-align: center;
+    background: var(--cor5);
+    color: #fff;
+    padding: 10px 0;
+}
+
+main{
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+}
+
+.conteudo{
+    /*border:  1px solid black;*/
+    border-radius: 10px;
+    margin: 10px 0px;
+    padding: 10px;
+    background: var(--cor1);
+    text-align: justify;
+}
+
+.conceito{
+     /*border:  1px solid black;*/
+    margin: 10px 0px;
+    padding: 10px;
+    background: var(--cor3);
+    border-radius: 0px 25px 0px 25px;
+}
+
+h1{
+    border-radius: 0px 0px 0px 20px;
+    color: var(--cor5);
+    padding: 5px 0px 5px 10px;
+    background-image: linear-gradient(to right, var(--cor2), transparent);
+
+}
+
+h2{
+    color: var(--cor5);
+}
