@@ -23,6 +23,7 @@
 
 body{
     background-image: linear-gradient(to bottom, var(--cor4),var(--cor5));
+    min-height: 100vh;
 }
 
 
@@ -45,7 +46,7 @@ main{
     /*border:  1px solid black;*/
     border-radius: 10px;
     margin: 20px auto;
-    padding: 10px;
+    padding: 20px;
     background: var(--cor1);
     text-align: justify;
     box-shadow: 4px 4px var(--cor5);
@@ -90,9 +91,9 @@ h2{
     position: relative;
     background: var(--cor1);
     margin: 0px;
-    left: -20px;
+    left: -30px;
     right: 0;
-    top: -20px;
+    top: -30px;
     width: 70%;
     border-radius: 12px;
     padding: 5px 5px 5px 15px;
