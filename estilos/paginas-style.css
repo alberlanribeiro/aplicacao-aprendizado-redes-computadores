@@ -1,7 +1,4 @@
 
-
-
-
 /* Color Theme Swatches in Hex */
 .technology-1-hex { color: #CCE7F2; }
 .technology-2-hex { color: #89D6FB; }
@@ -35,7 +32,7 @@ header{
 }
 
 main{
-    max-width: 700px;
+    max-width: 660px;
     margin: auto;
     padding: 20px;
     background: var(--cor1);
@@ -86,10 +83,6 @@ h1{
     color: white;
 }
 
-h2{
-    color: var(--cor5);
-}
-
 .sub-titulo1{
     position: relative;
     background: var(--cor5);
@@ -102,27 +95,9 @@ h2{
     padding: 5px 5px 5px 15px;
     box-shadow: 0 1px 3px 0 #0000003b;
     color: white;
-    
 /* deslocamento-x | deslocamento-y | raio de desfoque | raio de propagação | cor */
 }
 
-
-#botao-continuar{
-    width: 100px;
-    height: 50px;
-    background: blanchedalmond;
-    margin: auto;
-    cursor: pointer;
+#paragrafo-dos-links{
     text-align: center;
-    padding-top: 25px;
-}
-
-#botao-voltar{
-    width: 100px;
-    height: 50px;
-    background: blanchedalmond;
-    margin: auto;
-    cursor: pointer;
-    text-align: center;
-    padding-top: 25px;
 }

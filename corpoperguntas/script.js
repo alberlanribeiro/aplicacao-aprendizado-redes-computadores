@@ -23,7 +23,7 @@ function resposta(num_pergunta, selecionada){
     labels[7].style.backgroundColor = "white";
 
     //doy el color a label seleccionado
-    selecionada.parentNode.style.backgroundColor = "#F2E205";
+    selecionada.parentNode.style.backgroundColor = "#02a9f7;";
 
 }
 
