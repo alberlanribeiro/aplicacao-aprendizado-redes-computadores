@@ -3,8 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>perg2</title>
 </head>
+
+<style>
+   #botaoRedirecionar{
+       width: 100px;
+       height: 50px;
+       background: blanchedalmond;
+       margin: auto;
+       cursor: pointer;
+       text-align: center;
+       padding-top: 25px;
+   }
+</style>
 <body>
    <main>
       <section id="p0">
@@ -55,7 +67,22 @@
              <label><input type="radio" value="2" name="p6" onclick="resposta(6,this)"> A conexão ocorre através de um meio sólido</label>
              <label><input type="radio" value="3" name="p6" onclick="resposta(6,this)"> A conexão ocorre através do espaço, sem a necessidade de cabos</label>              
       </section>
+   
+      <div id="botaoRedirecionar" onclick="irParaLink()">
+         Continuar
+     </div>
+   
    </main>
+
+   <script>
+      function irParaLink() {
+           // Especifique o link de destino
+          var linkDestino = "../pagina3/pagina3.html";
+
+          // Redirecionar para o link
+          window.location.href = linkDestino;
+      }
+  </script>
    
    <!--**Perguntas do Quiz:**
 

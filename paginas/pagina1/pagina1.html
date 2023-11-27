@@ -3,22 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>pag1</title>
 
     <link rel="stylesheet" href="../../estilos/paginas-style.css">
 
-
-    <style>
-        #botaoRedirecionar{
-            width: 100px;
-            height: 50px;
-            background: blanchedalmond;
-            margin: auto;
-            cursor: pointer;
-            text-align: center;
-            padding-top: 25px;
-        }
-    </style>
 </head>
 <body>
     <main id="pag-principal">
@@ -45,20 +33,21 @@
             <p>Falaremos melhor sobre esses modelos e suas camadas mais tarde.</p>
         </section>
 
-        <!--<a href="perguntas1.html" class="transicao">Continuar</a>-->
 
 
-        <div id="botaoRedirecionar" onclick="irParaLink()">
-            Continuar
-        </div>
+        <!--CONTROLE DOS LINK CONTINUAR E VOLTAR-->
 
-        <a href=""></a>
+        <div id="botao-continuar" onclick="continuar()">Continuar</div>
+        <div id="botao-voltar" onclick="voltar()">Voltar</div>
+
         <script>
-            function irParaLink() {
-                 // Especifique o link de destino
+            function continuar() {
                 var linkDestino = "perguntas1.html";
+                window.location.href = linkDestino;
+            }
 
-                // Redirecionar para o link
+            function voltar(){
+                var linkDestino = "../../index.html";
                 window.location.href = linkDestino;
             }
         </script>
