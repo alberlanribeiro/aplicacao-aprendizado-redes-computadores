@@ -8,31 +8,41 @@
 .The-Blue-Girl-With-Animated-Eyes-4-hex { color: #F2A71B; }
 .The-Blue-Girl-With-Animated-Eyes-5-hex { color: #00FF90; }
 
-/* Color Theme Swatches in RGBA */
-.The-Blue-Girl-With-Animated-Eyes-1-rgba { color: rgba(36, 81, 242, 1); }
-.The-Blue-Girl-With-Animated-Eyes-2-rgba { color: rgba(39, 187, 242, 1); }
-.The-Blue-Girl-With-Animated-Eyes-3-rgba { color: rgba(242, 226, 5, 1); }
-.The-Blue-Girl-With-Animated-Eyes-4-rgba { color: rgba(242, 167, 27, 1); }
-.The-Blue-Girl-With-Animated-Eyes-5-rgba { color: rgba(0, 255, 144, 1); }
 
-/* Color Theme Swatches in HSLA */
-.The-Blue-Girl-With-Animated-Eyes-1-hsla { color: hsla(226, 88, 54, 1); }
-.The-Blue-Girl-With-Animated-Eyes-2-hsla { color: hsla(196, 88, 55, 1); }
-.The-Blue-Girl-With-Animated-Eyes-3-hsla { color: hsla(55, 95, 48, 1); }
-.The-Blue-Girl-With-Animated-Eyes-4-hsla { color: hsla(39, 89, 52, 1); }
-.The-Blue-Girl-With-Animated-Eyes-5-hsla { color: hsla(153, 100, 50, 1); }
+/* Color Theme Swatches in Hex */
+.Celebration-background-with-confetti-and-gold-balloons-1-hex { color: #F2DFA7; }
+.Celebration-background-with-confetti-and-gold-balloons-2-hex { color: #D9A25F; }
+.Celebration-background-with-confetti-and-gold-balloons-3-hex { color: #403323; }
+.Celebration-background-with-confetti-and-gold-balloons-4-hex { color: #A65005; }
+.Celebration-background-with-confetti-and-gold-balloons-5-hex { color: #592202; }
 
+/* Color Theme Swatches in Hex */
+.Tech-Alternative-1-hex { color: #08DDEB; }
+.Tech-Alternative-2-hex { color: #E3FFFE; }
+.Tech-Alternative-3-hex { color: #016587; }
+.Tech-Alternative-4-hex { color: #CAFF00; }
+.Tech-Alternative-5-hex { color: #A2F801; }
+
+
+:root{
+    --cor1: #F2DFA7;
+    --cor2: #D9A25F;
+    --cor3: #403323;
+    --cor4: #A65005;
+    --cor5: #592202;
+}
 
 
 
 *{
     box-sizing: border-box;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 
 body{
-    background: #D0ECF2; 
+    background-image: linear-gradient(to bottom, var(--cor4), var(--cor5));
+    min-height: 100vh;
 }
 header{
     text-align: center;
@@ -41,20 +51,22 @@ header{
     padding: 10px 0;
 }
 
-.container{
+main{
     max-width: 700px;
     margin: auto;
     padding: 20px;
     background: white;
+    box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.219);
     /*background: #F2BF91;*/
 }
 
 section{
-    border: 1px solid black;
+    /*border: 1px solid var(--cor4);*/
     border-radius: 7px;
     padding: 10px;
     margin: 10px 0;
-    background: #27BBF2;
+    background: var(--cor1);
+    color: black;
 }
 
 label{
@@ -63,12 +75,12 @@ label{
     padding: 7px;
     border-radius: 7px;
     cursor: pointer;
-    border: 1px solid black;
+    border: 1px solid var(--cor4);
     margin-bottom: 3px;
 }
 
 label:hover{
-    background: #cec0fc;
+    background: #5922026e;
 }
 
 button{

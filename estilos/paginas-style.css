@@ -38,35 +38,35 @@ main{
     max-width: 700px;
     margin: auto;
     padding: 20px;
-    background: white;
+    background: var(--cor1);
     border-radius: 0px 0px 10px 10px;
 }
 
 .conteudo{
     /*border:  1px solid black;*/
     border-radius: 10px;
-    margin: 20px auto;
+    margin: 20px auto 40px auto;
     padding: 20px;
-    background: var(--cor1);
+    background: white;
     text-align: justify;
     box-shadow: 4px 4px var(--cor5);
 }
     .conteudo p{
-        position: relative;
         margin: 0px;
-        top: -5px;
+        /*top: -5px;*/
 
     }
 
 .conceito{
      /*border:  1px solid black;*/
-    width: 85%;
+    width: 60%;
     margin: 10px auto;
     padding: 10px;
-    background: var(--cor3);
-    border-radius: 5px 20px 5px 20px;
-    font-size: 70%;
-    box-shadow: 0 1px 1px 0 #0000003b;
+    background: var(--cor4);
+    /*border-radius: 2px 2px 2px 2px;*/
+    font-size: 90%;
+    box-shadow: 10px 10px var(--cor5);
+    color: white;
 }
     .conceito p{
         position: relative;
@@ -75,12 +75,15 @@ main{
     }
 
 h1{
+    font-size: auto;
     margin-top: 0px;
-    border-radius: 0px 0px 0px 20px;
+    border-radius: 8px 8px 8px 8px;
     color: var(--cor5);
     padding: 5px 0px 5px 10px;
-    background-image: linear-gradient(to right, var(--cor2), transparent);
-    text-shadow: 1px 1px 2px #012f3f67;
+    background-image: linear-gradient(to right, var(--cor5), var(--cor4));
+    /*background: var( --cor5);*/
+    /*text-shadow: 1px 1px 2px #012f3f67;*/
+    color: white;
 }
 
 h2{
@@ -89,7 +92,7 @@ h2{
 
 .sub-titulo1{
     position: relative;
-    background: var(--cor1);
+    background: var(--cor5);
     margin: 0px;
     left: -30px;
     right: 0;
@@ -98,6 +101,7 @@ h2{
     border-radius: 12px;
     padding: 5px 5px 5px 15px;
     box-shadow: 0 1px 3px 0 #0000003b;
+    color: white;
     
 /* deslocamento-x | deslocamento-y | raio de desfoque | raio de propagação | cor */
 }
@@ -121,8 +125,4 @@ h2{
     cursor: pointer;
     text-align: center;
     padding-top: 25px;
-}
-
-.continuar-voltar{
-    background-color: #3ddc84;
 }
