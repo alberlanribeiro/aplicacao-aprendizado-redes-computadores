@@ -101,3 +101,25 @@ h1{
 #paragrafo-dos-links{
     text-align: center;
 }
+
+.botao-voltar:hover{
+    background-image: url("../../imagens/continuar.png");
+}
+
+#paragrafo-dos-links{
+    padding: 15px 15px 20px 15px;
+    margin-bottom: 0;
+}
+
+.voltar{
+    width: 200px;
+    height: 200px;
+}
+
+i{
+    font-size: 50px;
+    color: red;
+}
+i:hover{
+    color:blue;
+}
