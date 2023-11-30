@@ -21,6 +21,7 @@
 body{
     background-image: linear-gradient(to bottom, var(--cor4),var(--cor5));
     min-height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 
@@ -102,24 +103,16 @@ h1{
     text-align: center;
 }
 
-.botao-voltar:hover{
-    background-image: url("../../imagens/continuar.png");
-}
-
-#paragrafo-dos-links{
-    padding: 15px 15px 20px 15px;
-    margin-bottom: 0;
-}
-
 .voltar{
     width: 200px;
     height: 200px;
 }
 
-i{
+#paragrafo-dos-links i{
     font-size: 50px;
-    color: red;
+    color: var(--cor5);
 }
-i:hover{
-    color:blue;
+
+#paragrafo-dos-links i:hover{
+    color: var(--cor3);
 }
