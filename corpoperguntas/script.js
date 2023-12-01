@@ -1,6 +1,13 @@
 //array contendo as respostas corretas
 let corretas = [3,1,3,2,3];
 
+//perg1 [2,3,2,1]
+//perg2 [3,2,3,1,2,3,1]
+//perg3 [2,3,3,1,2,3]
+//perg4 []
+//perg5 [1,3,3,2,3,1,2]
+//perg6 [3,3,2,2,1,3]
+
 //array para guardar as respostas que o usuário selecionou
 let opcao_escolhida=[];
 
