@@ -43,7 +43,7 @@ main{
 .conteudo{
     /*border:  1px solid black;*/
     border-radius: 10px;
-    margin: 20px auto 40px auto;
+    margin: 20px auto 30px auto;
     padding: 20px;
     background: white;
     text-align: justify;
@@ -75,6 +75,7 @@ main{
 h1{
     font-size: auto;
     margin-top: 0px;
+    margin-bottom: 0px;
     border-radius: 8px 8px 8px 8px;
     color: var(--cor5);
     padding: 5px 0px 5px 10px;
@@ -101,6 +102,7 @@ h1{
 
 #paragrafo-dos-links{
     text-align: center;
+    margin: 0;
 }
 
 .voltar{
