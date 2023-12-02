@@ -10,8 +10,10 @@ let corretas = [3,1,3,2,3];
 //perg7 [1,3,1,3,2,2]
 //perg8 [3,3,2,1,2,1,3]
 //perg9 [2,1,3,1,3,2]
-//perg10 
-
+//perg10 [2,2,1,3,1,2,1]
+//perg11 []
+//perg12
+//perg13 [3,2,1,2,1,3,3]
 
 
 //array para guardar as respostas que o usuário selecionou
