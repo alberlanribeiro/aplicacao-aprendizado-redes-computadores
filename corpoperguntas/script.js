@@ -14,6 +14,8 @@ let corretas = [3,1,3,2,3];
 //perg11 []
 //perg12
 //perg13 [3,2,1,2,1,3,3]
+//perg14 [2,2,1,3,2,1,3]
+//perg15 [1,3,2,1,2,3]
 
 
 //array para guardar as respostas que o usuário selecionou
