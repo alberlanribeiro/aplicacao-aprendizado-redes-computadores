@@ -14,10 +14,10 @@
    <main>
       <h2>Hora de Praticar</h2>
       <section id="p0">
-         <p  class="titulo-perguntas">1 - Quais são algumas das alternativas mencionadas para lidar com o problema de escassez de endereços IP?</p>
-             <label><input type="radio" value="1" name="p0" onclick="resposta(0,this)"> Criar faixas de endereço públicos e privados</label>
+         <p  class="titulo-perguntas">1 - Qual das opções não é alternativa para lidar com o problema de escassez de endereços IPv4?</p>
+             <label><input type="radio" value="1" name="p0" onclick="resposta(0,this)"> Almentar o número de IPs da versão 4</label>
              <label><input type="radio" value="2" name="p0" onclick="resposta(0,this)"> Implementar o IPv6</label>
-             <label><input type="radio" value="3" name="p0" onclick="resposta(0,this)"> Utilizar NAT e CIDR</label>
+             <label><input type="radio" value="3" name="p0" onclick="resposta(0,this)"> Utilizar NAT</label>
       </section>
       <section id="p1">
          <p  class="titulo-perguntas">2 - Como o NAT contribui para resolver o problema de escassez de endereços IP?</p>
@@ -31,32 +31,28 @@
              <label><input type="radio" value="2" name="p2" onclick="resposta(2,this)"> São complexas de implementar</label>
              <label><input type="radio" value="3" name="p2" onclick="resposta(2,this)"> A solução definitiva é a implementação total do IPv6</label>
       </section>
+
       <section id="p3">
-         <p  class="titulo-perguntas">4 - Qual é a função principal dos endereços IP privados, e onde são comumente usados?</p>
-             <label><input type="radio" value="1" name="p3" onclick="resposta(3,this)"> Identificar dispositivos na Internet global</label>
-             <label><input type="radio" value="2" name="p3" onclick="resposta(3,this)"> Utilizados em redes locais (LANs)</label>
-             <label><input type="radio" value="3" name="p3" onclick="resposta(3,this)"> Assegurar a singularidade de endereços na Internet</label>
+         <p  class="titulo-perguntas">4 - Qual das opções representa uma faixa de endereço IP privados?</p>
+             <label><input type="radio" value="1" name="p4" onclick="resposta(4,this)"> 172.32.0.0 até 172.63.255.255</label>
+             <label><input type="radio" value="2" name="p4" onclick="resposta(4,this)"> 100.100.0.0 até 100.200.255.255</label>
+             <label><input type="radio" value="3" name="p4" onclick="resposta(4,this)"> 192.168.0.0 até 192.168.255.255</label>
       </section>
+
       <section id="p4">
-         <p  class="titulo-perguntas">5 - Quais são as faixas de endereços IP privados, conforme mencionadas no texto?</p>
-             <label><input type="radio" value="1" name="p4" onclick="resposta(4,this)"> 192.0.0.0 até 192.255.255.255</label>
-             <label><input type="radio" value="2" name="p4" onclick="resposta(4,this)"> 10.0.0.0 até 10.255.255.255</label>
-             <label><input type="radio" value="3" name="p4" onclick="resposta(4,this)"> 172.32.0.0 até 172.63.255.255</label>
-      </section>
-      <section id="p5">
-         <p  class="titulo-perguntas">6 - O que diferencia os endereços IP públicos dos endereços IP privados?</p>
+         <p  class="titulo-perguntas">5 - O que diferencia os endereços IP públicos dos endereços IP privados?</p>
              <label><input type="radio" value="1" name="p5" onclick="resposta(5,this)"> Os públicos são reutilizáveis, enquanto os privados são únicos</label>
              <label><input type="radio" value="2" name="p5" onclick="resposta(5,this)"> Os públicos são roteados diretamente na Internet, enquanto os privados não</label>
              <label><input type="radio" value="3" name="p5" onclick="resposta(5,this)"> Ambos são usados exclusivamente em redes locais</label>
       </section>
-      <section id="p6">
-         <p  class="titulo-perguntas">7 - Por que cada dispositivo conectado diretamente à Internet deve ter um endereço IP público único?</p>
+      <section id="p5">
+         <p  class="titulo-perguntas">6 - Por que cada dispositivo conectado diretamente à Internet deve ter um endereço IP público único?</p>
              <label><input type="radio" value="1" name="p6" onclick="resposta(6,this)"> Garantir a segurança da rede</label>
-             <label><input type="radio" value="2" name="p6" onclick="resposta(6,this)"> Evitar conflitos de endereços</label>
-             <label><input type="radio" value="3" name="p6" onclick="resposta(6,this)"> Facilitar a comunicação global</label>
+             <label><input type="radio" value="2" name="p6" onclick="resposta(6,this)"> Facilitar a comunicação</label>
+             <label><input type="radio" value="3" name="p6" onclick="resposta(6,this)"> Gerar conflitos de endereços</label>
       </section>
-      <section id="p7">
-         <p  class="titulo-perguntas">8 - Segundo o texto, qual é a solução definitiva para o problema de escassez de endereços IP?</p>
+      <section id="p6">
+         <p  class="titulo-perguntas">7 - Qual é a solução definitiva para o problema de escassez de endereços IP?</p>
              <label><input type="radio" value="1" name="p7" onclick="resposta(7,this)"> Uso de endereços IP públicos</label>
              <label><input type="radio" value="2" name="p7" onclick="resposta(7,this)"> Implementação total do IPv6</label>
              <label><input type="radio" value="3" name="p7" onclick="resposta(7,this)"> Divisão de redes na notação CIDR</label>
