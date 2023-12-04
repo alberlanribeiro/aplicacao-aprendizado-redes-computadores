@@ -1,5 +1,6 @@
 //array contendo as respostas corretas
-let corretas = [3,1,3,2,3];
+//let corretas = [3,1,3,2,3];
+let corretas = [];
 
 //array para guardar as respostas que o usuário selecionou
 let opcao_escolhida=[];
@@ -28,7 +29,20 @@ function resposta(num_pergunta, selecionada){
 }
 
 
-function corrigir(){
+function corrigir(numero_da_pagina_de_perguntas){
+
+    switch (numero_da_pagina_de_perguntas){
+        case 1:
+            corretas = [2,3,2,1];
+            break;
+        case 2:
+            corretas = [3,2,3,1,2,3,1];
+            break;
+        default:
+            corretas = [];
+            break;
+    }
+
     quantidade_corretas=0;
         for(i=0; i < corretas.length; i++){
                 if(corretas[i] == opcao_escolhida[i]){
