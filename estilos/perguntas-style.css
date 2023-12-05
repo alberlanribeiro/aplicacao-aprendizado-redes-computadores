@@ -45,7 +45,7 @@ section{
     margin: 10px 0;
     background: var(--cor1);
     color: black;
-    box-shadow: 0 1px 3px 0 #0000003b;
+    box-shadow: 0 1px 3px 0 #00000082;
 }
 
 label{
@@ -67,14 +67,14 @@ button{
     display: block;
     margin: auto;
     padding: 10px;
-    background-color: #76d7c8;
+    background-color: var(--cor3);
     border: none;
     cursor: pointer;
     border-radius: 20px;
 }
 
 button:hover{
-    background: #000;
+    background: var(--cor4);
     color: #fff;
 }
 
@@ -84,7 +84,7 @@ h2{
 
 #resultado{
     font-size: 30px;
-    color: darkred;
+    color: var(--cor3);
 }
 
 #paragrafo-dos-links{

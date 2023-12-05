@@ -23,7 +23,7 @@ function resposta(num_pergunta, selecionada){
     labels[5].style.backgroundColor = "white";
     labels[7].style.backgroundColor = "white";
 
-    //doy el color a label seleccionado
+    //muda a cor do label selecionado
     selecionada.parentNode.style.backgroundColor = "#02a9f7";
 
 }
@@ -48,7 +48,6 @@ var objt = {
     gabaritos: [[2,3,2,1],[3,2,3,1,2,3,1],[2,3,3,1,2,3],[],[1,3,3,2,3,1,2],[3,3,2,2,1,3],[1,3,1,3,2,2],[3,3,2,1,2,1,3],[2,1,3,1,3,2],[2,2,1,3,1,2,1],[2,1,1,3,2,3],[2,3,1,3,3,2,1],[3,2,1,2,1,3,3],[2,2,1,3,2,1,3],[1,3,2,1,2,3],[3,3,2,1,2,1,1],[1,1,3,3,2,2,2]]
 }
 
-
 function corrigir(numero_da_pagina_de_perguntas){
         corretas = objt.gabaritos[numero_da_pagina_de_perguntas];
     quantidade_corretas=0;
@@ -62,11 +61,11 @@ function corrigir(numero_da_pagina_de_perguntas){
         
                     // destaca a resposta correta com a cor verde
                     if (corretas[i] == 1)
-                        labels[3].style.backgroundColor = "green";
+                        labels[3].style.backgroundColor = "#3ddc84";
                     if (corretas[i] == 2)
-                        labels[5].style.backgroundColor = "green";
+                        labels[5].style.backgroundColor = "#3ddc84";
                     if (corretas[i] == 3)
-                        labels[7].style.backgroundColor = "green";
+                        labels[7].style.backgroundColor = "#3ddc84";
         }
         document.getElementById("resultado").innerHTML = quantidade_corretas;
 }
