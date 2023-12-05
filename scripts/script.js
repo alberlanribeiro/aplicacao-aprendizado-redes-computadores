@@ -27,22 +27,30 @@ function resposta(num_pergunta, selecionada){
     selecionada.parentNode.style.backgroundColor = "#02a9f7";
 
 }
+//perg1 [2,3,2,1]
+//perg2 [3,2,3,1,2,3,1]
+//perg3 [2,3,3,1,2,3]
+//perg4 []
+//perg5 [1,3,3,2,3,1,2]
+//perg6 [3,3,2,2,1,3]
+//perg7 [1,3,1,3,2,2]
+//perg8 [3,3,2,1,2,1,3]
+//perg9 [2,1,3,1,3,2]
+//perg10 [2,2,1,3,1,2,1]
+//perg11 [2,1,1,3,2,3]
+//perg12 [2,3,1,3,3,2,1]
+//perg13 [3,2,1,2,1,3,3]
+//perg14 [2,2,1,3,2,1,3]
+//perg15 [1,3,2,1,2,3]
+//perg16 [3,3,2,1,2,1,1]
+//perg17 [1,1,3,3,2,2,2]
+var objt = { 
+    gabaritos: [[2,3,2,1],[3,2,3,1,2,3,1],[2,3,3,1,2,3],[],[1,3,3,2,3,1,2],[3,3,2,2,1,3],[1,3,1,3,2,2],[3,3,2,1,2,1,3],[2,1,3,1,3,2],[2,2,1,3,1,2,1],[2,1,1,3,2,3],[2,3,1,3,3,2,1],[3,2,1,2,1,3,3],[2,2,1,3,2,1,3],[1,3,2,1,2,3],[3,3,2,1,2,1,1],[1,1,3,3,2,2,2]]
+}
 
 
 function corrigir(numero_da_pagina_de_perguntas){
-
-    switch (numero_da_pagina_de_perguntas){
-        case 1:
-            corretas = [2,3,2,1];
-            break;
-        case 2:
-            corretas = [3,2,3,1,2,3,1];
-            break;
-        default:
-            corretas = [];
-            break;
-    }
-
+        corretas = objt.gabaritos[numero_da_pagina_de_perguntas];
     quantidade_corretas=0;
         for(i=0; i < corretas.length; i++){
                 if(corretas[i] == opcao_escolhida[i]){
