@@ -5,6 +5,7 @@ function botao_menu(){
     document.getElementById("botao").style.display = "block";
     var dropdown = window.document.getElementById("botao")
 
+
     dropdown.innerHTML += '<p><a href="../../paginas/pagina1/pagina1.html">O que é uma rede de computadores?</a></p>'
     dropdown.innerHTML += '<p><a href="../../paginas/pagina2/pagina2.html">O que são hospedeiros (hosts)?</a></p>'
     dropdown.innerHTML += '<p><a href="../../paginas/pagina3/pagina3.html">Meios de transmissão guiados</a></p>'
