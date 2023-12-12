@@ -21,19 +21,11 @@
 body{
     background-image: linear-gradient(to bottom, var(--cor4),var(--cor5));
     min-height: 100vh;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-
-header{
-    text-align: center;
-    background: var(--cor5);
-    color: #fff;
-    padding: 10px 0;
+    font-family:  Arial, sans-serif;
 }
 
 main{
-    max-width: 660px;
+    max-width: 620px;
     margin: auto;
     padding: 20px;
     background: var(--cor1);
@@ -41,24 +33,22 @@ main{
 }
 
 .conteudo{
-    /*border:  1px solid black;*/
+    border:  1px solid var(--cor5);
     border-radius: 10px;
     margin: 20px auto 30px auto;
-    padding: 20px;
+    padding: 10px 20px 20px 20px;
     background: white;
     text-align: justify;
     box-shadow: 4px 4px var(--cor5);
 }
     .conteudo p{
-        margin: 0px;
-        /*top: -5px;*/
-
+        margin: 0;
     }
 
 .conceito{
      /*border:  1px solid black;*/
     width: 60%;
-    margin: 10px auto;
+    margin: 10px auto 20px auto;
     padding: 10px;
     background: var(--cor4);
     /*border-radius: 2px 2px 2px 2px;*/
@@ -70,6 +60,7 @@ main{
         position: relative;
         margin: 0px;
         top: 1px;
+        margin: 0px;
     }
 
 h1{
@@ -83,20 +74,24 @@ h1{
     /*background: var( --cor5);*/
     /*text-shadow: 1px 1px 2px #012f3f67;*/
     color: white;
+    font-size: 1.4em;
 }
 
 .sub-titulo1{
+    border:  1px solid var(--cor5);
     position: relative;
-    background: var(--cor5);
+    background: var(--cor4);
     margin: 0px;
     left: -30px;
     right: 0;
-    top: -30px;
+    top: -20px;
     width: 70%;
     border-radius: 12px;
     padding: 5px 5px 5px 15px;
     box-shadow: 0 1px 3px 0 #0000003b;
     color: white;
+    font-size: 1em;
+
 /* deslocamento-x | deslocamento-y | raio de desfoque | raio de propagação | cor */
 }
 
@@ -117,4 +112,39 @@ h1{
 
 #paragrafo-dos-links i:hover{
     color: var(--cor3);
+}
+
+
+
+/*  ESTILO DO HEADER*/
+
+header{
+    align-items: right;
+    margin: auto;
+    background-color: var(--cor4);
+    min-height: 40px;
+    /* text-align: right; */
+    background-color: var(--cor5);
+    padding-top: 40px;
+    /* padding-right: 40px; */
+    max-width: 660px;
+}
+
+.div-header{
+    /* align-items: center; */
+}
+
+.dropdown{
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+    top: 88px;
+    position: absolute;
+    display: none;
+    background-color: #83e1ad;
+    /* text-align: right; */
+    max-width: 600px;
+}
+.dropdown ul li{
+
 }
