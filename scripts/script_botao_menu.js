@@ -2,8 +2,10 @@
 
 
 function botao_menu(){
-    document.getElementById("botao").style.display = "block";
-    var dropdown = window.document.getElementById("botao")
+    document.querySelector(".div-header").style.display = "block";
+    document.querySelector(".botao").style.display = "none";
+    var dropdown = window.document.querySelector(".dropdown")
+
 
 
     dropdown.innerHTML += '<p><a href="../../paginas/pagina1/pagina1.html">O que é uma rede de computadores?</a></p>'
@@ -24,4 +26,9 @@ function botao_menu(){
     dropdown.innerHTML += '<p><a href="../../paginas/pagina16/pagina16.html">Endereçamento IP III</a></p>'
     dropdown.innerHTML += '<p><a href="../../paginas/pagina17/pagina17.html">Endereçamento IP IV</a></p>'
     dropdown.innerHTML += '<p><a href="../../paginas/pagina18/pagina18.html">Endereçamento IP V</a></p>'
+}
+
+function botao_recuar_menu(){
+    document.querySelector(".div-header").style.display = "none";
+    document.querySelector(".botao").style.display = "block";
 }

@@ -121,32 +121,63 @@ h1{
 header{
     align-items: right;
     margin: auto;
-    background-color: var(--cor4);
     height: 60px;
     /* text-align: right; */
     background-color: var(--cor5);
-    padding-top: 40px;
+    /* padding-top: 40px; */
     /* padding-right: 40px; */
     max-width: 660px;
 }
 
 .div-header{
-    /* align-items: center; */
+    /* border: 1px solid magenta; */
+    /* padding: 10px; */
+    position: relative;
+    display: none;
+    max-width: 400px;
+    /* height: 200px; */
+    max-height: 300px;
+    background-color: red;
+    top: 60px;
 }
 
 .dropdown{
     margin: 0;
     text-align: center;
-    padding: 10px;
-    top: 39px;
-    position: relative;
-    display: none;
-    background-color: red;
-    /* text-align: right; */
-    max-width: 400px;
-    height: 200px;
+    /*padding: 10px; */
+    /*text-align: right; */
+    max-height: 300px;
     overflow-y: auto;
 }
-.dropdown ul li{
+.dropdown::-webkit-scrollbar{
+    width: 10px;
+}
 
+.dropdown::-webkit-scrollbar-thumb{
+    background: #02a9f7;
+}
+
+
+.div-botao-voltar{
+    background-color: var(--cor5);
+    max-width: 400px;
+    height: 20px;
+    text-align: center;
+    cursor: pointer;
+    padding-top: 1%;
+}
+.div-botao-voltar i{
+    color: var(--cor3);
+    font-weight: 900;
+}
+
+.botao{
+    cursor: pointer;
+    background: none;
+    /* border: none; */
+    padding: 0;
+    margin: 0;
+    font-size: 45px;
+    font-weight: 900;
+    color: #02A9F7;
 }
