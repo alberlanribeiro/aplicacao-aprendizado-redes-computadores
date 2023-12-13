@@ -20,6 +20,8 @@
 body{
     background-image: linear-gradient(to bottom, var(--cor4),var(--cor5));
     min-height: 100vh;
+    padding: 0;
+    margin: 0;
 }
 header{
     text-align: center;
