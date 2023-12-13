@@ -118,7 +118,7 @@ h1{
 
 
 
-/*  ESTILO DO HEADER*/
+/*  ESTILO DO HEADER #####################################################*/
 
 header{
     align-items: right;
@@ -144,6 +144,7 @@ header{
     top: 60px;
     margin: 0px auto 0px 10px;
     /* box-shadow: 1px 0px 1px black; */
+
 }
 
 .dropdown{
@@ -169,6 +170,7 @@ header{
 
 .dropdown::-webkit-scrollbar-thumb{
     background: #02a9f7;
+    border-radius: 10px;
 }
 
 
@@ -179,11 +181,17 @@ header{
     text-align: center;
     cursor: pointer;
     padding-top: 1%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
-.div-botao-voltar i{
-    color: var(--cor3);
-    font-weight: 900;
-}
+        .div-botao-voltar i{
+            color: var(--cor1);
+            font-weight: 900;
+        }
+        .div-botao-voltar:hover{
+            background-color: var(--cor3);
+        }
+
 
 .botao{
     cursor: pointer;
