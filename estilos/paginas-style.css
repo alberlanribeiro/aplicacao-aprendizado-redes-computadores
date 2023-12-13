@@ -136,11 +136,13 @@ header{
     /* padding: 10px; */
     position: relative;
     display: none;
-    max-width: 400px;
+    /* max-width: 400px; */
+    max-width: 70%;
     /* height: 200px; */
     max-height: 300px;
-    background-color: red;
+    background-color: #012f3fea;
     top: 60px;
+    margin: 0px auto 0px 10px;
 }
 
 .dropdown{
@@ -151,6 +153,15 @@ header{
     max-height: 300px;
     overflow-y: auto;
 }
+.dropdown a{
+    color: var(--cor1);
+    text-decoration: none;
+    padding: 4px 10px;
+    border-radius: 10px;
+}
+    .dropdown a:hover{
+        background: #02A9F7;
+    }
 .dropdown::-webkit-scrollbar{
     width: 10px;
 }
