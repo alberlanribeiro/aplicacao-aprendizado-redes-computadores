@@ -22,6 +22,7 @@ body{
     background-image: linear-gradient(to bottom, var(--cor4),var(--cor5));
     min-height: 100vh;
     font-family:  Arial, sans-serif;
+    padding: 0;
 }
 
 main{
