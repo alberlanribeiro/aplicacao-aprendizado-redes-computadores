@@ -32,3 +32,8 @@ function botao_recuar_menu(){
     document.querySelector(".div-header").style.display = "none";
     document.querySelector(".botao").style.display = "block";
 }
+
+function recuar_menu_geral(){
+    document.querySelector(".div-header").style.display = "none";
+    document.querySelector(".botao").style.display = "block";   
+}

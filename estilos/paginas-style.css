@@ -143,6 +143,7 @@ header{
     background-color: #012f3fea;
     top: 60px;
     margin: 0px auto 0px 10px;
+    /* box-shadow: 1px 0px 1px black; */
 }
 
 .dropdown{
