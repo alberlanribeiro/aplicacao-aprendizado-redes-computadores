@@ -119,6 +119,7 @@ header{
 }
 
 .div-header{
+    padding-top: 10px;
     z-index: 1;
     position: relative;
     display: none;
@@ -191,8 +192,6 @@ header{
 .botao-home:hover{
     cursor: pointer;
     background-color: var(--cor3);
-   
-    
 }
 
 
