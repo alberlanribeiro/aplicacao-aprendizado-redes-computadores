@@ -24,7 +24,7 @@ body{
 
 
 main{
-    max-width: 840px;
+    max-width: 720px;
     margin: auto;
     padding: 20px;
     background: white;
@@ -108,7 +108,7 @@ header{
     margin: auto;
     height: 60px;
     background-color: var(--cor5);
-    max-width: 840px;
+    max-width: 760px;
 }
 
 .div-header{
