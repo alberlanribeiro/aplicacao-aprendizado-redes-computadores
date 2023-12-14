@@ -1,5 +1,4 @@
 //array contendo as respostas corretas
-//let corretas = [3,1,3,2,3];
 let corretas = [];
 
 //array para guardar as respostas que o usuário selecionou
@@ -13,8 +12,7 @@ function resposta(num_pergunta, selecionada){
     //guarda a resposta escolhida
     opcao_escolhida[num_pergunta] = selecionada.value;
 
-    //o seguinte codigo é para por na cor branco o fundo dos inputs para quando escolher outra opção 
-    //configura o id para selecionar a seção correspondente
+
     id="p" + num_pergunta;
 
     labels = document.getElementById(id).childNodes;
