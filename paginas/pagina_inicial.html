@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .welcome-container {
+            text-align: center;
+            background-color: #3498db;
+            color: #fff;
+            padding: 20px;
+            margin: 50px auto;
+            border-radius: 10px;
+            max-width: 90%;
+        }
+        .div-start{
+            margin: auto;
+            vertical-align: center;
+            top: 20px;
+            background-color: #02577A;
+            color: #CCE7F2;;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+            .div-start:hover{
+                background-color: #3498db;
+            }
+            .div-start div{
+                position: relative;
+                top: 35px;
+            }
+    </style>
+
+    <link rel="stylesheet" href="../../estilos/paginas-style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header></header>
+    <main>
+        <div class="welcome-container">
+            <h1>Bem-vindo ao Mundo das Redes! 🌐</h1>
+            <p>Embarque em um mundo de aprendizado, aprenda e conecte-se com a nossa aplicão voltada para o ensino de redes de computadores. É uma honra ter você conosco, vamos começar essa jornada juntos!🚀🔧</p>
+        </div>
+
+        <div class="div-start" onclick="start()">
+            <div>COMEÇAR <i class='bx bxs-like bx-tada' ></i></div>
+        </div>
+    </main>
+
+    <script>
+        function start(){
+            window.location.href = 'pagina1/pagina1.html';
+        }
+    </script>
+</body>
+</html>

@@ -1,12 +1,12 @@
 
+var dropdown = window.document.querySelector(".dropdown");
 
 
 function botao_menu(){
     document.querySelector(".div-header").style.display = "block";
     document.querySelector(".botao").style.display = "none";
-    var dropdown = window.document.querySelector(".dropdown")
-
-
+    
+    dropdown.innerHTML += '<svg class="botao-home" onclick="voltar_pro_home()" xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 24 24" style="fill: #CCE7F2;transform: ;msFilter:;"><path d="M3 13h1v7c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2v-7h1a1 1 0 0 0 .707-1.707l-9-9a.999.999 0 0 0-1.414 0l-9 9A1 1 0 0 0 3 13zm7 7v-5h4v5h-4zm2-15.586 6 6V15l.001 5H16v-5c0-1.103-.897-2-2-2h-4c-1.103 0-2 .897-2 2v5H6v-9.586l6-6z"></path></svg>'
     dropdown.innerHTML += '<p><a href="../../paginas/pagina1/pagina1.html">O que é uma rede de computadores?</a></p>'
     dropdown.innerHTML += '<p><a href="../../paginas/pagina2/pagina2.html">O que são hospedeiros (hosts)?</a></p>'
     dropdown.innerHTML += '<p><a href="../../paginas/pagina3/pagina3.html">Meios de transmissão guiados</a></p>'
@@ -30,9 +30,15 @@ function botao_menu(){
 function botao_recuar_menu(){
     document.querySelector(".div-header").style.display = "none";
     document.querySelector(".botao").style.display = "block";
+    dropdown.innerHTML = ' '
 }
 
 function recuar_menu_geral(){
     document.querySelector(".div-header").style.display = "none";
-    document.querySelector(".botao").style.display = "block";   
+    document.querySelector(".botao").style.display = "block";
+    dropdown.innerHTML =  ' ';
+}
+
+function voltar_pro_home(){
+    window.location.href = '../pagina_inicial.html';
 }

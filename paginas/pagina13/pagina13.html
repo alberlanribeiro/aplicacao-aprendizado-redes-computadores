@@ -11,6 +11,9 @@
             border: 1px solid black;
             border-collapse: collapse;
             width: 250px;
+            position: static;
+            top: 50%;
+            top: 50%;
         }
         th, td {
             border: 1px solid #000000;
@@ -18,7 +21,9 @@
             max-width: 200px;
         }
         .div-tabelas{
-            display: inline-block;
+            margin: auto;
+            display: inline-flex;
+            align-items: center;
         }
     </style>
 
@@ -39,7 +44,7 @@
     
     <script src="../../scripts/script_botao_menu.js"></script>
 
-    <main>
+    <main onclick="recuar_menu_geral()">
         <h1>Modelo TCP/IP</h1>
         <section class="conteudo">
                 <p>O modelo TCP/IP é um modelo <u>prático</u> para as redes de computadores, composto por 5 camadas. Ele recebe esse nome devido aos protocolos utilizados no início da internet, o TCP (protocolo de controle de transmissão) e IP (protocolo de internet). Desde o surgimento das redes de computadores ele é amplamente utilizado. As diferenças e em relação ao OSI são basicamente: </p>

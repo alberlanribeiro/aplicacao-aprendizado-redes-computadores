@@ -1,13 +1,3 @@
-
-/* Color Theme Swatches in Hex */
-.technology-1-hex { color: #CCE7F2; }
-.technology-2-hex { color: #89D6FB; }
-.technology-3-hex { color: #02A9F7; }
-.technology-4-hex { color: #02577A; }
-.technology-5-hex { color: #01303F; }
-
-
-
 :root{
     --cor1: #CCE7F2;
     --cor2: #89D6FB; 
@@ -26,8 +16,15 @@ body{
     margin: 0;
 }
 
+hr{
+    border-color: var(--cor5);
+    border-style: solid;
+    margin-bottom: 25px;
+    padding-top: 0px;
+}
+
 main{
-    max-width: 620px;
+    max-width: 800px;
     margin: auto;
     padding: 20px;
     background: var(--cor1);
@@ -41,7 +38,8 @@ main{
     padding: 10px 20px 20px 20px;
     background: white;
     text-align: justify;
-    box-shadow: 4px 4px var(--cor5);
+    /* box-shadow: 4px 1px 1px 3px var(--cor5); */
+    box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.292);
 }
     .conteudo p{
         margin: 0;
@@ -49,7 +47,7 @@ main{
 
 .conceito{
      /*border:  1px solid black;*/
-    width: 60%;
+    width: 75%;
     margin: 10px auto 20px auto;
     padding: 10px;
     background: var(--cor4);
@@ -57,9 +55,9 @@ main{
     font-size: 90%;
     box-shadow: 10px 10px var(--cor5);
     color: white;
+    border-radius: 5px;
 }
     .conceito p{
-        /* position: relative; */
         margin: 0px;
         top: 1px;
         margin: 0px;
@@ -73,10 +71,9 @@ h1{
     color: var(--cor5);
     padding: 5px 0px 5px 10px;
     background-image: linear-gradient(to right, var(--cor5), var(--cor4));
-    /*background: var( --cor5);*/
-    /*text-shadow: 1px 1px 2px #012f3f67;*/
     color: white;
     font-size: 1.4em;
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.292);
 }
 
 .sub-titulo1{
@@ -101,11 +98,6 @@ h1{
     margin: 0;
 }
 
-.voltar{
-    width: 200px;
-    height: 200px;
-}
-
 #paragrafo-dos-links i{
     font-size: 50px;
     color: var(--cor5);
@@ -116,42 +108,30 @@ h1{
 }
 
 
-
 /*  ESTILO DO HEADER #####################################################*/
 
 header{
     align-items: right;
     margin: auto;
     height: 60px;
-    /* text-align: right; */
     background-color: var(--cor5);
-    /* padding-top: 40px; */
-    /* padding-right: 40px; */
-    max-width: 660px;
+    max-width: 840px;
 }
 
 .div-header{
     z-index: 1;
-    /* border: 1px solid magenta; */
-    /* padding: 10px; */
     position: relative;
     display: none;
-    /* max-width: 400px; */
     max-width: 70%;
-    /* height: 200px; */
     max-height: 400px;
     background-color: #012f3fea;
     top: 60px;
     margin: 0px auto 0px 10px;
-    /* box-shadow: 1px 0px 1px black; */
-
 }
 
 .dropdown{
     margin: 0;
     text-align: center;
-    /*padding: 10px; */
-    /*text-align: right; */
     max-height: 400px;
     overflow-y: auto;
 }
@@ -176,7 +156,6 @@ header{
 
 .div-botao-voltar{
     background-color: var(--cor5);
-    /* max-width: 400px; */
     max-width: 100%;
     height: 20px;
     text-align: center;
@@ -197,10 +176,27 @@ header{
 .botao{
     cursor: pointer;
     background: none;
-    /* border: none; */
     padding: 0;
     margin: 0;
     font-size: 45px;
     font-weight: 900;
-    color: #02A9F7;
+    color: var(--cor3)
+}
+
+.botao-home{
+    border-radius: 50%;
+    padding: 10px;
+    border: solid var(--cor1);
+}
+.botao-home:hover{
+    cursor: pointer;
+    background-color: var(--cor3);
+   
+    
+}
+
+
+/* main-pagina-inicial */
+.main-pagina-inicial{
+    max-height: 600px;
 }
