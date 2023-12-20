@@ -117,3 +117,11 @@ body{
 }
 
 
+.aviso{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px
+}
+.aviso p{
+    color: darkred;
+}
